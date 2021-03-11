@@ -1,0 +1,1 @@
+web: gunicorn app: telecom_churn_app.py
