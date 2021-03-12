@@ -9,7 +9,7 @@ model1 = joblib.load('model/logistic_model.pkl')
 
 @app.route('/')
 def home():
-	return render_template('front_page.html')
+	return 'Home Page'
 
 @app.route('/predict', methods = ['POST','GET'])
 def telecom_churn_prediction():
